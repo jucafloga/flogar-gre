@@ -1,0 +1,32 @@
+{
+    "name": "flogar/gre-api",
+    "description": "API para nueva plataforma de guia de remision - SUNAT.",
+    "keywords": [
+        "sunat",
+        "guia-remision",
+        "peru",
+        "api"
+    ],
+    "homepage": "https://github.com/jucafloga/gre-api",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jucafloga",
+            "email": "jucafloga@outlook.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "guzzlehttp/guzzle": "^7.3",
+        "guzzlehttp/psr7": "^1.7 || ^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flogar\\Sunat\\GRE\\": "src/"
+        }
+    }
+}
